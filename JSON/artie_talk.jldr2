@@ -1,0 +1,419 @@
+{
+  "cardName": "artie_cat",
+  "faceSprite": "a_face.png",
+  "eyeSprites": {
+    "open": "a_neutral_eyes_open.png",
+    "closed": "a_neutral_eyes_closed.png"
+  },
+  "mouthSprites": {
+    "open": "a_neutral_mouth_open.png",
+    "closed": "a_neutral_mouth_closed.png"
+  },
+  "emissionSprite": "a_neutral_emission.png",
+  "faceInfo": {
+    "blinkRate": 1.5,
+    "voiceId": "female1_voice",
+    "voiceSoundPitch": 1.3
+  },
+  "emotions": [
+    {
+      "emotion": "Anger",
+      "eyeSprites": {
+        "open": "a_angry_eyes_open.png",
+        "closed": "a_angry_eyes_closed.png"
+      },
+      "mouthSprites": {
+        "open": "a_angry_mouth_open.png",
+        "closed": "a_angry_mouth_closed.png"
+      },
+      "emissionSprite": "a_angry_emission.png"
+    },
+    {
+      "emotion": "Quiet",
+      "faceSprite": "a_quiet_face.png",
+      "eyeSprites": {
+        "open": "a_quiet_eyes_open.png",
+        "closed": "a_quiet_eyes_closed.png"
+      },
+      "mouthSprites": {
+        "open": "a_angry_mouth_open.png",
+        "closed": "a_angry_mouth_closed.png"
+      },
+      "emissionSprite": "a_quiet_emission.png"
+    },
+    {
+      "emotion": "Laughter",
+      "eyeSprites": {
+        "open": "a_laughter_eyes_open.png",
+        "closed": "a_laughter_eyes_closed.png"
+      },
+      "mouthSprites": {
+        "open": "a_neutral_mouth_open.png",
+        "closed": "a_neutral_mouth_closed.png"
+      },
+      "emissionSprite": "a_laughter_emission.png"
+    },
+    {
+      "emotion": "Surprise",
+      "faceSprite": "a_surprised_face.png",
+      "eyeSprites": {
+        "open": "a_surprised_eyes_open.png",
+        "closed": "a_surprised_eyes_closed.png"
+      },
+      "mouthSprites": {
+        "open": "a_surprised_mouth_open.png",
+        "closed": "a_surprised_mouth_closed.png"
+      },
+      "emissionSprite": "a_surprised_emission.png"
+    },
+    {
+      "emotion": "Curious",
+      "faceSprite": "a_curious_face.png",
+      "eyeSprites": {
+        "open": "a_curious_eyes_open.png",
+        "closed": "a_curious_eyes_closed.png"
+      },
+      "mouthSprites": {
+        "open": "a_curious_mouth_open.png",
+        "closed": "a_curious_mouth_closed.png"
+      },
+      "emissionSprite": "a_curious_emission.png"
+    }
+  ],
+  "dialogueEvents": [
+    {
+      "eventName": "OnDrawn",
+      "mainLines": [
+        "[e:quiet][c:dSG]Caelum Infinitum[c:]...[w:1]",
+        "[e:surprise]Oh! Sorry.[e:neutral][w:1] Um, I’m Artos.",
+        "My friends call me Artie, though...",
+        ".[w:0.5].[w:0.5].",
+        "[e:neutral]Since I’m in your topdeck",
+        "I guess that makes us...[w:0.5]friends?",
+        " So...[w:1] you can call me Artie too. ",
+        "I’m not very strong, but...",
+        "I’ll do my best."
+      ],
+      "repeatLines": [
+        [
+          "...Hi, it’s me again."
+        ],
+        [
+          "We’re still on good standing, right?"
+        ],
+        [
+          "From the Aether."
+        ],
+        [
+          "[e:surprise]But...",
+          "[e:surprise]I'm not ready yet!"
+        ],
+        [
+          "Protective shield ready,",
+          "Fireball lit!"
+        ],
+        [
+          "[e:surprise]Now?! Oh, goodness, okay!",
+          "[e:laughter]You've got this!"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnPlayFromHand",
+      "mainLines": [
+        "[e:surprise]Oh gosh, okay.",
+        "[e:surprise]I'll trust you!"
+      ],
+      "repeatLines": [
+        [
+          "[e:surprise]Wait, wait!",
+          "[e:surprise]I need to find the right",
+          "[e:surprise]page in my spellbook..."
+        ],
+        [
+          "From the hand to the field."
+        ],
+        [
+          "[e:laughter]Tell me where to target!"
+        ],
+        [
+          "Ready to go!"
+        ]
+      ]
+    },
+    {
+      "eventName": "ProspectorBoss",
+      "mainLines": [
+        "[e:surprise]By the Moon,",
+        "[e:surprise]it's quite loud out here.",
+        "[e:curious]A prospector?",
+        "[e:curious]...Strange...Why do I",
+        "[e:curious]remember something like",
+        "[e:curious]this so faintly...?",
+        "[e:neutral]Whatever. We've got this, right?"
+      ],
+      "repeatLines": [
+        [
+          "[e:surprise]It was one of his apprentices!",
+          "[e:neutral]Well-",
+          "[e:neutral]Followers, I guess?",
+          "[e:neutral]I don't think they",
+          "[e:neutral]were called apprentices."
+        ],
+        [
+          "[e:curious]Is it really gold,",
+          "[e:curious]or is it lead?"
+        ],
+        [
+          "[e:curious]Khrusopoiía?"
+        ],
+        [
+          "[e:curious]Strange.",
+          "[e:curious]I could've sworn",
+          "[e:curious]I saw bugs within",
+          "[e:curious]those rocks..."
+        ]
+      ]
+    },
+    {
+      "eventName": "AnglerBoss",
+      "mainLines": [
+        "[e:curious]If these fish",
+        "[e:curious]weren't so rotted,",
+        "[e:laughter]I'd consider taking",
+        "[e:laughter]a few for my sister",
+        "[e:laughter]after this is all over."
+      ],
+      "repeatLines": [
+        [
+          "I wish the trees were real.",
+          "...I miss the scent of the forest."
+        ],
+        [
+          "Want to avoid popping the buckets?",
+          "Use a card that can fly.",
+          "Or that Harpie Fan."
+        ],
+        [
+          "Divers avoid all damage.",
+          "But they do low damage in return.",
+          "Just out-damage him.",
+          "You got this."
+        ],
+        [
+          "[e:quiet]...I wonder how Ruby is doing."
+        ]
+      ]
+    },
+    {
+      "eventName": "TrapperTraderBoss",
+      "mainLines": [
+        "[e:anger]A ripple on the water,",
+        "[e:anger]a breeze through the trees.",
+        "[e:anger]Human, if there's still traps,",
+        "[e:anger]I can trigger them remotely.",
+        "[e:anger]That way, nothing gets hurt.",
+        "[e:anger]Just tell me where to shoot."
+      ],
+      "repeatLines": [
+        [
+          "The grinding of gears."
+        ],
+        [
+          "The light of the Moon."
+        ],
+        [
+          "The traps will clamp shut",
+          "when they've taken enough",
+          "damage. But,",
+          "they can be triggered",
+          "by bifurcation or trifurcation, too."
+        ],
+        [
+          "The croaking of oak boxes."
+        ],
+        [
+          "Looking at those crudely-skinned pelts...",
+          "[e:quiet]makes me uncomfortable."
+        ]
+      ]
+    },
+    {
+      "eventName": "LeshyBoss",
+      "mainLines": [
+        "[e:anger]...",
+        "[e:quiet]You took the Comet from us,",
+        "[e:quiet]Leshy. You took her",
+        "[e:quiet]guiding light, her spirit.",
+        "[e:anger][c:R]So I will take that from you."
+      ],
+      "repeatLines": [
+        [
+          "\"ἕν τὸ πᾶν, hen to pān\",",
+          "\"The all is one.\""
+        ],
+        [
+          "We never recovered."
+        ],
+        [
+          "Fade like smoke..."
+        ],
+        [
+          "...Is she well?"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnAttacked",
+      "mainLines": [
+        "[e:quiet]Wait! My shield!",
+        "[e:quiet]The spell's down!",
+        "[e:quiet]Aagh, I can still do this!"
+      ],
+      "repeatLines": [
+        [
+          "Shield's down again!"
+        ],
+        [
+          "I got careless!"
+        ],
+        [
+          "Sloppy work, Artie..."
+        ],
+        [
+          "I'll get you for that!"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnBecomeSelectablePositive",
+      "mainLines": [
+        "[e:curious]Choose whoever you want.",
+        "[e:curious]I'll just sit here and",
+        "[e:curious]read my spellbook."
+      ],
+      "repeatLines": [
+        [
+          "One of these again?"
+        ],
+        [
+          "The Comet spoke of something like this..."
+        ],
+        [
+          "[e:surprise]Is this a good idea...?"
+        ]
+      ]
+    },
+    {
+      "eventName": "RoyalBoss",
+      "mainLines": [
+        "[e:curious]A pirate?",
+        "Ruby loved pirates.",
+        "[e:laughter]I can't wait to tell",
+        "[e:laughter]about this fight."
+      ],
+      "repeatLines": [
+        [
+          "[e:laughter]Arrr!"
+        ],
+        [
+          "[e:laughter]Those skeletons are brittle.",
+          "[e:laughter]The force of their own strikes",
+          "[e:laughter]will cause them to collapse."
+        ],
+        [
+          "Limon, Lemon...",
+          "[e:laughter]Oh, I get it!",
+          "[e:laughter]Because scurvy!"
+        ],
+        [
+          "[e:laughter]Heeve Ho!"
+        ]
+      ]
+    },
+    {
+      "eventName": "OnBecomeSelectableNegative",
+      "mainLines": [
+        "[e:surprised]Um... Pass.",
+        "[e:surprise]Please."
+      ],
+      "repeatLines": [
+        [
+          "[e:surprise]Can I pass again?"
+        ],
+        [
+          "[e:surprise]Skip!"
+        ],
+        [
+          "[e:surprise]It won't hurt, right?"
+        ],
+        [
+          "[e:quiet]...Oof, that's scary."
+        ]
+      ]
+    },
+    {
+      "eventName": "OnSacrificed",
+      "mainLines": [
+        "[e:quiet]..."
+      ],
+      "repeatLines": [
+        [
+          "[e:quiet]I'm sorry..."
+        ],
+        [
+          "[e:quiet]Ruby..."
+        ],
+        [
+          "[e:quiet]The stars..."
+        ],
+        [
+          "[e:quiet]Peace..."
+        ],
+        [
+          "[e:quiet]Goodbye."
+        ]
+      ]
+    },
+    {
+      "eventName": "OnSelectedForDeckTrial",
+      "mainLines": [
+        "[e:curious]How[w:1]...[w:1]Odd.",
+        "[e:curious]It's foggy, but",
+        "[e:curious]this feels so...",
+        "[e:curious]familiar."
+      ],
+      "repeatLines": [
+        [
+          "Trials... Technically,",
+          "isn't this all one elaborate trial?"
+        ],
+        [
+          "Good luck."
+        ],
+        [
+          "You got this, easy."
+        ]
+      ]
+    },
+    {
+      "eventName": "OnSelectedForCardRemove",
+      "mainLines": [
+        "[e:quiet]I'm not that weak,",
+        "[e:quiet]...[w:1]am I?"
+      ],
+      "repeatLines": [
+        [
+          "[e:quiet]I would prefer",
+          "[e:quiet]if you didn't."
+        ],
+        [
+          "[e:quiet]Maybe I am that weak..."
+        ],
+        [
+          "[e:quiet]..."
+        ]
+      ]
+    }
+  ]
+}

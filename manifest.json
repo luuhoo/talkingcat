@@ -1,0 +1,11 @@
+{
+    "name": "The_Cat",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/luuhoo/talkingcat",
+    "description": "Adds a talking Cat card to Act 1, with subtle lore. Works best with Tuck, Irons and Jackalope!",
+    "dependencies": [
+      "BepInEx-BepInExPack_Inscryption-5.4.1901",
+      "API_dev-API-2.9.1",
+      "MADH95Mods-JSONCardLoader-2.3.0"
+    ]
+}

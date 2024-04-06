@@ -1,0 +1,29 @@
+{
+  "name": "artie_cat",
+  "modPrefix": "artie",
+  "displayedName": "Artos",
+  "description": "Eight lives spent studying - One life putting it all to practice. You’d think a scholar would have no need for mysticism...",
+  "metaCategories": [
+    "ChoiceNode"
+  ],
+  "cardComplexity": "Vanilla",
+  "temple": "Nature",
+  "baseAttack": 2,
+  "baseHealth": 2,
+  "bloodCost": 1,
+  "tribes": [],
+  "traits": [
+    "DeathcardCreationNonOption"
+  ],
+  "abilities": [
+    "DeathShield",
+    "Sniper"
+  ],
+  "specialAbilities": [
+    "TalkingCardChooser"
+  ],
+  "onePerDeck": true,
+  "flipPortraitForStrafe": false,
+  "tailName": "Tail_Furry",
+  "pixelTexture": "luu_cat_pixelsprite.png"
+}
