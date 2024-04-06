@@ -1,7 +1,7 @@
 An Inscryption mod that adds a talking Cat card into Act 1 and Kaycee's Mod.
 He can be found randomly via. random card draws or trader's inventories. I'd like to add him as a static encounter, like the other talking cards, but until I learn how that is unavaliable.
 
-Jackalope has unique lore, animated portraits, a unique voice pitch, and unique dialogue for nearly every in-game situational (excluding between-cards conversations, e.g. Stoat and Stinkbug talking to each other)
+Artos has unique lore, animated portraits, a unique voice pitch, and unique dialogue for nearly every in-game situational (excluding between-cards conversations)
 
 # Installation
 This mod’s dependencies are BepInEx, the InscryptionAPI, JSONCardLoader and TalkingCardAPI.
